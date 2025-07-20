@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Психолог – Ім'я Прізвище</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-8 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Ім'я Прізвище</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-blue-600">Про мене</a></li>
+          <li><a href="#services" class="hover:text-blue-600">Послуги</a></li>
+          <li><a href="#certificates" class="hover:text-blue-600">Сертифікати</a></li>
+          <li><a href="#testimonials" class="hover:text-blue-600">Відгуки</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="container mx-auto px-6 py-20 text-center" id="hero">
+    <h2 class="text-4xl font-bold mb-4">Професійна психологічна допомога</h2>
+    <p class="text-lg mb-8">Підтримка та розвиток у будь-яких життєвих ситуаціях</p>
+    <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg shadow hover:bg-blue-700 transition">Записатися на консультацію</a>
+  </section>
+
+  <!-- Photo Section (Placeholder) -->
+  <section class="container mx-auto px-6 py-8 text-center" id="photo">
+    <!-- Тимчасове зображення-заглушка; пізніше замінити на власне фото -->
+    <img src="https://via.placeholder.com/160" alt="Фото психолога" class="mx-auto rounded-full w-40 h-40 object-cover shadow-lg mb-4">
+    <p class="text-xl font-medium">Ім'я Прізвище, практикуючий психолог</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="container mx-auto px-6 py-16" id="about">
+    <h3 class="text-3xl font-semibold mb-6">Про мене</h3>
+    <p class="text-lg leading-relaxed">Я — досвідчений психолог з понад 10-річним досвідом практики. Допомагаю подолати стрес, тривогу та покращити якість життя.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-white py-16" id="services">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-semibold text-center mb-12">Послуги</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-100 rounded-lg shadow">
+          <h4 class="text-2xl font-semibold mb-4">Індивідуальна терапія</h4>
+          <p>Робота над особистими запитами та саморозвитком.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow">
+          <h4 class="text-2xl font-semibold mb-4">Сімейне консультування</h4>
+          <p>Підтримка та покращення відносин у сім'ї.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow">
+          <h4 class="text-2xl font-semibold mb-4">Коучинг і мотивація</h4>
+          <p>Постановка цілей та особистісний ріст.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section class="container mx-auto px-6 py-16" id="certificates">
+    <h3 class="text-3xl font-semibold text-center mb-12">Сертифікати</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 bg-gray-100 rounded-lg shadow text-center">
+        <img src="certificate1.jpg" alt="Сертифікат з когнітивно-поведінкової терапії" class="mx-auto mb-4 w-32 h-32 object-contain">
+        <p class="font-medium">Сертифікат з когнітивно-поведінкової терапії</p>
+      </div>
+      <div class="p-6 bg-gray-100 rounded-lg shadow text-center">
+        <img src="certificate2.jpg" alt="Сертифікат з арт-терапії" class="mx-auto mb-4 w-32 h-32 object-contain">
+        <p class="font-medium">Сертифікат з арт-терапії</p>
+      </div>
+      <div class="p-6 bg-gray-100 rounded-lg shadow text-center">
+        <img src="certificate3.jpg" alt="Сертифікат із психологічного консультування" class="mx-auto mb-4 w-32 h-32 object-contain">
+        <p class="font-medium">Сертифікат із психологічного консультування</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="container mx-auto px-6 py-16" id="testimonials">
+    <h3 class="text-3xl font-semibold text-center mb-12">Відгуки клієнтів</h3>
+    <div class="space-y-8 max-w-2xl mx-auto">
+      <div class="p-6 bg-gray-100 rounded-lg shadow">
+        <p class="italic mb-4">«Завдяки сесіям з психологом моє життя змінилося на краще. Рекомендую!»</p>
+        <p class="font-semibold">— Ім'я Клієнта</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-white py-16" id="contact">
+    <div class="container mx-auto px-6 max-w-lg">
+      <h3 class="text-3xl font-semibold mb-6 text-center">Контакти</h3>
+      <form class="space-y-4">
+        <div>
+          <label class="block mb-1 font-medium">Ім'я</label>
+          <input type="text" class="w-full border border-gray-300 p-2 rounded" placeholder="Ваше ім'я">
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Email</label>
+          <input type="email" class="w-full border border-gray-300 p-2 rounded" placeholder="example@mail.com">
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Повідомлення</label>
+          <textarea class="w-full border border-gray-300 p-2 rounded" rows="4" placeholder="Ваш запит"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition">Надіслати</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-6 text-center">
+    <p>&copy; 2025 Ім'я Прізвище. Усі права захищені.</p>
+  </footer>
+</body>
+</html>
