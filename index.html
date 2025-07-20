@@ -29,16 +29,19 @@
     </div>
   </header>
 
-  <!-- Banner Section with Background -->
-  <section class="mt-20 bg-cover bg-center" style="background-image: url('background.jpg');">
-    <div class="container mx-auto px-6 py-20 text-center bg-black bg-opacity-50">
-      <h2 class="text-4xl font-bold text-white mb-4" id="hero">Професійна психологічна допомога</h2>
-      <p class="text-lg text-gray-200 mb-8">Підтримка та розвиток у будь-яких життєвих ситуаціях</p>
-      <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg shadow hover:bg-blue-700 transition">Записатися на консультацію</a>
-    </div>
-    <div class="container mx-auto px-6 py-8 text-center bg-black bg-opacity-50">
-      <img src="photo.jpg" alt="Фото психолога" class="mx-auto rounded-full w-40 h-40 object-cover shadow-lg mb-4">
-      <p class="text-xl font-medium text-white">Ім'я Прізвище, практикуючий психолог</p>
+  <!-- Banner Section with Constrained Background -->
+  <section class="mt-20">
+    <div class="container mx-auto px-6">
+      <div class="relative w-full max-w-3xl mx-auto bg-cover bg-center rounded-lg overflow-hidden" style="background-image:url('background.jpg'); padding-top:75.25%;">
+        <!-- Overlay Content -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center px-6">
+          <h2 id="hero" class="text-4xl font-bold text-white mb-4">Професійна психологічна допомога</h2>
+          <p class="text-lg text-gray-200 mb-8">Підтримка та розвиток у будь-яких життєвих ситуаціях</p>
+          <!-- Кнопка видалена згідно запиту -->
+          <img src="photo.jpg" alt="Фото психолога" class="mt-8 rounded-full w-40 h-40 object-cover shadow-lg">
+          <p class="text-xl font-medium text-white mt-4">Ксенія Михайленко, практикуючий психолог</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -123,7 +126,7 @@
 
   <!-- Footer -->
   <footer class="bg-gray-200 py-6 text-center">
-    <p>&copy; 2025 Ім'я Прізвище. Усі права захищені.</p>
+    <p>&copy; 2025 Ксенія Михайленко. Усі права захищені.</p>
   </footer>
 </body>
 </html>
