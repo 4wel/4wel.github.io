@@ -7,10 +7,11 @@
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@600;800&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Merriweather', serif; }
     h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
+    .intro-block { font-family: 'Roboto Condensed', sans-serif; }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -35,8 +36,8 @@
     <div class="container mx-auto px-6">
       <div class="relative w-full bg-cover bg-center rounded-lg overflow-hidden" style="background-image:url('background.jpg'); padding-top:75.25%;">
         <div class="absolute inset-0 flex items-center justify-center">
-          <div class="bg-white bg-opacity-60 backdrop-blur-sm p-10 rounded-lg text-center max-w-sm">
-            <h2 class="text-4xl font-extrabold uppercase mb-2 tracking-wide">Ксенія Михайленко</h2>
+          <div class="intro-block bg-white bg-opacity-60 backdrop-blur-sm p-10 rounded-lg text-center max-w-sm">
+            <h2 class="text-4xl font-bold uppercase mb-2 tracking-wide">Ксенія Михайленко</h2>
             <h3 class="text-2xl font-semibold uppercase text-gray-700 mb-4 tracking-wider">Психолог</h3>
             <p class="uppercase text-sm text-gray-600 mb-6 tracking-widest">Україна, Київ</p>
             <ul class="text-base font-light space-y-2 leading-relaxed">
@@ -53,12 +54,10 @@
   <!-- About Section -->
   <section class="container mx-auto px-6 py-16 bg-white" id="about">
     <h3 class="text-3xl font-bold uppercase mb-6 tracking-wide">Про мене</h3>
-    <!-- Education & Experience Blocks -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="p-6 bg-gray-100 rounded-lg shadow-lg">
         <h4 class="text-xl font-bold mb-2">Освіта</h4>
-        <p class="text-base leading-relaxed">Магістр клінічна психологія<br>Київський інститут сучасної психології та психотерапії.<br>
-        ІІ ступінь програми «Гештальт-терапія»<br>Київський Гештальт університет<br>Керівники: Альона Колобовнікова, Олександра Демченко.</p>
+        <p class="text-base leading-relaxed">Магістр клінічна психологія<br>Київський інститут сучасної психології та психотерапії.<br>ІІ ступінь програми «Гештальт-терапія»<br>Київський Гештальт університет<br>Керівники: Альона Колобовнікова, Олександра Демченко.</p>
       </div>
       <div class="p-6 bg-gray-100 rounded-lg shadow-lg">
         <h4 class="text-xl font-bold mb-2">Спеціалізація</h4>
@@ -66,9 +65,7 @@
       </div>
       <div class="p-6 bg-gray-100 rounded-lg shadow-lg">
         <h4 class="text-xl font-bold mb-2">Досвід</h4>
-        <p class="text-base leading-relaxed">3000+ годин роботи з клієнтами.<br>
-        Індивідуальна та групова терапія (Психологічна асоціація).<br>
-        9 років особистої терапії (мультимодальний, гештальт-терапія).</p>
+        <p class="text-base leading-relaxed">3000+ годин роботи з клієнтами.<br>Індивідуальна та групова терапія (Психологічна асоціація).<br>9 років особистої терапії (мультимодальний, гештальт-терапія).</p>
       </div>
     </div>
   </section>
@@ -99,8 +96,7 @@
     </div>
   </section>
 
-  <!-- Certificates, Testimonials, Contact, Footer unchanged -->
-
+  <!-- Certificates Section -->
   <section class="container mx-auto px-6 py-16" id="certificates">
     <h3 class="text-3xl font-semibold text-center mb-12">Сертифікати</h3>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -119,6 +115,7 @@
     </div>
   </section>
 
+  <!-- Testimonials Section -->
   <section class="container mx-auto px-6 py-16 bg-white" id="testimonials">
     <h3 class="text-3xl font-semibold text-center mb-12">Відгуки клієнтів</h3>
     <div class="space-y-8 max-w-2xl mx-auto">
@@ -129,6 +126,7 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section class="bg-gray-50 py-16" id="#contact">
     <div class="container mx-auto px-6 max-w-lg">
       <h3 class="text-3xl font-semibold mb-6 text-center">Контакти</h3>
@@ -150,6 +148,7 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="bg-gray-200 py-6 text-center">
     <p>&copy; 2025 Ксенія Михайленко. Усі права захищені.</p>
   </footer>
