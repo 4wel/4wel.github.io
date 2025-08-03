@@ -15,6 +15,13 @@
     .intro-block h2 { font-weight: 700; }
     .intro-block h3 { font-weight: 400; }
     .intro-block p, .intro-block ul { font-weight: 300; }
+    /* Narrow intro-block on mobile */
+    @media (max-width: 767px) {
+      .intro-block {
+        width: 83.333%; /* 10/12 width */
+        margin-left: auto;
+        margin-right: auto;
+      }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
